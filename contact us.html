@@ -12,7 +12,7 @@
         <style>
             
             /* Mobile Failsafe: Ensures page is never stuck on blank/white */
-            .page-wrapper { opacity: 1 !important; }
+            .page-wrapper { opacity: 0 !important; }
             .navbar { background-color: #fff !important; }
         
             /* Ensures navbar is solid and fixed like the About page */
@@ -47,6 +47,14 @@
         </script>
     </head>
     <body>
+        <div class="page-load-cover-wrapper">
+            <div class="page-load-cover-right">
+                <div>
+                    <div class="lodding-image two" data-w-id="54d697fb-5dab-e33d-b3b4-0c53f417dbd6" data-animation-type="lottie" data-src="https://assets.website-files.com/62e11777b4bd5e23589c4358/62f0e56a5514946ee9700a4d_lf30_editor_marnnkeq.json" data-loop="0" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="3.9166666666666665" data-duration="0"></div>
+                </div>
+            </div>
+            <div class="page-load-cover"></div>
+        </div>
         <div class="page-wrapper">
             <div data-w-id="7eca5f5e-5e91-d114-4519-fb502e04dcf1" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
                 <div class="container">
@@ -228,13 +236,7 @@
                 submitBtn.value = "Send Message";
                 submitBtn.disabled = false;
             });
-        </script><div class="page-load-cover-wrapper">
-            <div class="page-load-cover-right">
-                <div>
-                    <div class="lodding-image two" data-w-id="54d697fb-5dab-e33d-b3b4-0c53f417dbd6" data-animation-type="lottie" data-src="https://assets.website-files.com/62e11777b4bd5e23589c4358/62f0e56a5514946ee9700a4d_lf30_editor_marnnkeq.json" data-loop="0" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="3.9166666666666665" data-duration="0"></div>
-                </div>
-            </div>
-            <div class="page-load-cover"></div>
-        </div>
+        </script>
+        
     </body>
 </html>
