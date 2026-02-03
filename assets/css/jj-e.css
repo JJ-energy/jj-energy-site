@@ -146,7 +146,7 @@
    }
    
    .get-a-quote-button.desk {
-     border: 1px solid ; #1595c3
+     border: 1px solid #1595c3;
      -webkit-transition: all 400ms ease;
      transition: all 400ms ease;
    }
